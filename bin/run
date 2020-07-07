@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+
+require_relative '../config/environment.rb'
+
+new_instance_of_cli = CLI.new
+new_instance_of_cli.call
