@@ -1,4 +1,4 @@
-class Team #model class
+class Nhl::Team #model class
   attr_accessor :name, :abbreviation, :arena, :division, :conference, :first_year, :url
 
   @@all = []
@@ -23,21 +23,3 @@ class Team #model class
   end
 
 end
-
-
-# class Teams #model class
-#   attr_accessor :name, :venue, :abbreviation, :first_year, :conference, :division
-#
-#   @@all = []
-#
-#   def initialize(name, abbreviation)
-#     @name = name
-#     @abbreviation = abbreviation
-#     @@all << self
-#   end
-#
-#   def self.all
-#     @@all
-#   end
-#
-# end
