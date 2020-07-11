@@ -7,8 +7,8 @@ class Nhl::Team #model class
     @name = attr_hash[:name]
     @abbreviation = attr_hash[:abbreviation]
     @arena = attr_hash[:arena]
-    @conference = attr_hash[:conference]
     @division = attr_hash[:division]
+    @conference = attr_hash[:conference]
     @first_year = attr_hash[:first_year]
     @url = attr_hash[:url]
     save
