@@ -19,7 +19,7 @@ GEM
       coderay (~> 1.1)
       method_source (~> 1.0)
     rainbow (3.0.0)
-    rake (12.3.2)
+    rake (12.3.3)
     tty-font (0.5.0)
     tty-link (0.1.1)
 
@@ -31,7 +31,7 @@ DEPENDENCIES
   nhl!
   pry
   rainbow
-  rake (~> 12.0)
+  rake (~> 12.3)
   tty-font
   tty-link
 
