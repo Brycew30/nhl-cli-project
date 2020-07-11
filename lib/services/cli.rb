@@ -76,7 +76,8 @@ class Nhl::CLI
     puts Rainbow("Division: #{abbreviation_match[0].division}").bright
     puts Rainbow("Conference: #{abbreviation_match[0].conference}").bright
     puts Rainbow("Inaugural Year: #{abbreviation_match[0].first_year}").bright
-    puts Rainbow("Team Website: #{abbreviation_match[0].url}").bright
+    puts Rainbow(TTY::Link.link_to("Team Website:", "#{abbreviation_match[0].url}")).bright
+    puts Rainbow("(press cmd+double click the link above for more information!)").faint
     puts ""
   end
 
