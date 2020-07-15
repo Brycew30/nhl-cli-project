@@ -11,7 +11,7 @@ class Nhl::CLI
 
   def run
     welcome_message
-    api.get_team_info #instantiates all teams
+    @api.get_team_info #instantiates all teams
     sleep 2.4
     main_menu
   end
@@ -32,7 +32,6 @@ class Nhl::CLI
     input_prompt
     abbreviation_match = Nhl::Team.all.select {|team| "#{input}" == team.abbreviation}
     validate_input(abbreviation_match)
-    binding.pry
     return_message
   end
 
