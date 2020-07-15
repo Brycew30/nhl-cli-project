@@ -32,11 +32,12 @@ class Nhl::CLI
     input_prompt
     abbreviation_match = Nhl::Team.all.select {|team| "#{input}" == team.abbreviation}
     validate_input(abbreviation_match)
+    binding.pry
     return_message
   end
 
   def show_all_team_names
-    Nhl::Team.all.each do |team|
+    Nhl::Team.order.each do |team|
       puts Rainbow("#{team.name} (#{team.abbreviation})").black.bg(:silver).bright
     end
     nil
