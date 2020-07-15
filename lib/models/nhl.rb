@@ -21,5 +21,9 @@ class Nhl::Team #model class
   def save
     @@all << self
   end
-  
+
+  def self.order
+    @@all.sort_by {|team| team.name}
+  end
+
 end
