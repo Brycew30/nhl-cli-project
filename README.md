@@ -30,12 +30,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-<<<<<<< HEAD
-Bug reports and pull requests are welcome on GitHub at https://github.com/Brycew30/nhl. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/Brycew30/nhl/blob/master/CODE_OF_CONDUCT.md).
-=======
 Bug reports and pull requests are welcome on GitHub at https://github.com/brycew30/nhl. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/brycew30/nhl/blob/master/CODE_OF_CONDUCT.md).
->>>>>>> c3ff42c995046de587729175b95cb19a3a7112cd
-
 
 ## License
 
@@ -43,8 +38,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-<<<<<<< HEAD
-Everyone interacting in the Nhl project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/Brycew30/nhl/blob/master/CODE_OF_CONDUCT.md).
-=======
 Everyone interacting in the Nhl project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/brycew30/nhl/blob/master/CODE_OF_CONDUCT.md).
->>>>>>> c3ff42c995046de587729175b95cb19a3a7112cd
