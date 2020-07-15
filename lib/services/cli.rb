@@ -21,7 +21,7 @@ class Nhl::CLI
     puts Rainbow(@font.write("WELCOME")).silver.bg(:black).bright
     puts Rainbow(@font.write("TO THE")).silver.bg(:black).bright
     puts Rainbow(@font.write("NHL TEAM")).silver.bg(:black).bright
-    puts Rainbow(@font.write("DATABASE")).silver.bg(:black).bright
+    puts Rainbow(@font.write("DIRECTORY")).silver.bg(:black).bright
     puts ""
     puts ""
   end
