@@ -14,12 +14,12 @@ class Nhl::Team #model class
     save
   end
 
-  def save
-    @@all << self
-  end
-
   def self.all
     @@all
   end
 
+  def save
+    @@all << self
+  end
+  
 end
