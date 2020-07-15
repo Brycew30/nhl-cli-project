@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-After successfully installing the gem, run nhl/bin/run from the command line.
+After successfully installing the gem, run `nhl/bin/run` from the command line.
 
 ## Development
 
