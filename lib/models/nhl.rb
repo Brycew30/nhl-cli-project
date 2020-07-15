@@ -1,9 +1,9 @@
 class Nhl::Team #model class
-  attr_accessor :name, :abbreviation, :arena, :division, :conference, :first_year, :url
+  attr_reader :name, :abbreviation, :arena, :division, :conference, :first_year, :url
 
   @@all = []
 
-  def initialize(attr_hash) #refactor-able?
+  def initialize(attr_hash)
     @name = attr_hash[:name]
     @abbreviation = attr_hash[:abbreviation]
     @arena = attr_hash[:arena]
