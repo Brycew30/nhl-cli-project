@@ -85,7 +85,7 @@ class Nhl::CLI
     puts ""
     puts Rainbow("Type 'list' to see the teams again, or type 'q' to quit.").blue.bright
     puts ""
-    self.input = gets.strip
+    @input = gets.strip
     puts ""
     puts ""
 
