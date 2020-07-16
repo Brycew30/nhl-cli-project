@@ -49,7 +49,7 @@ class Nhl::CLI
   end
 
   def gets_user_input
-    self.input = gets.chomp.upcase
+    @input = gets.chomp.upcase
   end
 
   def validate_input(abbreviation_match)
