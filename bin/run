@@ -2,5 +2,4 @@
 
 require_relative '../config/environment.rb'
 
-new_instance_of_cli = Nhl::CLI.new
-new_instance_of_cli.run
+Nhl::CLI.new.run
