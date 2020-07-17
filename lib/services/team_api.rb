@@ -1,7 +1,7 @@
 class Nhl::TeamAPI
   BASE_URL = "https://statsapi.web.nhl.com/api/v1/teams"
 
-  def get_team_info
+  def self.get_team_info
     response = HTTParty.get(BASE_URL)
     teams_array = response["teams"]
     teams_array.each do |team_hash|
