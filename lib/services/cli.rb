@@ -1,6 +1,6 @@
 class Nhl::CLI
 
-  attr_reader :api
+  # attr_reader :api
   attr_accessor :input
 
   def initialize
@@ -11,7 +11,7 @@ class Nhl::CLI
 
   def run
     welcome_message
-    @api.get_team_info #instantiates all teams
+    Nhl::TeamAPI.get_team_info #instantiates all teams
     sleep 2.4
     main_menu
   end
@@ -49,7 +49,7 @@ class Nhl::CLI
   end
 
   def gets_user_input
-    @input = gets.chomp.upcase
+    self.input = gets.chomp.upcase
   end
 
   def validate_input(abbreviation_match)
@@ -85,7 +85,7 @@ class Nhl::CLI
     puts ""
     puts Rainbow("Type 'list' to see the teams again, or type 'q' to quit.").blue.bright
     puts ""
-    @input = gets.strip
+    self.input = gets.strip
     puts ""
     puts ""
 
